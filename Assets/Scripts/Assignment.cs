@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Assignment : MonoBehaviour
@@ -23,7 +24,81 @@ public class Assignment : MonoBehaviour
     {
         // TODO: Implement logic to determine sign
         // Example: Debug.Log("Positive");
-        throw new System.NotImplementedException();
+        as01Number = 67;
+        Debug.Log("AS01.01A: Input : " + as01Number );
+        if (as01Number > 0)
+        {
+            Debug.Log("Positive");
+        }
+        else if (as01Number < 0)
+        {
+            Debug.Log("Negative");
+        }
+        else
+        {
+            Debug.Log("Zero");   
+        }
+        Debug.Log("------------------------------");
+        as01Number = -67;
+        Debug.Log("AS01.01B: Input : " + as01Number );
+        if (as01Number > 0)
+        {
+            Debug.Log("Positive");
+        }
+        else if (as01Number < 0)
+        {
+            Debug.Log("Negative");
+        }
+        else
+        {
+            Debug.Log("Zero");   
+        }
+        Debug.Log("------------------------------");
+        as01Number = 0;
+        Debug.Log("AS01.01C: Input : " + as01Number );
+        if (as01Number > 0)
+        {
+            Debug.Log("Positive");
+        }
+        else if (as01Number < 0)
+        {
+            Debug.Log("Negative");
+        }
+        else
+        {
+            Debug.Log("Zero");   
+        }
+        Debug.Log("------------------------------");
+        as01Number = 123456789;
+        Debug.Log("AS01.01D: Input : " + as01Number );
+        if (as01Number > 0)
+        {
+            Debug.Log("Positive");
+        }
+        else if (as01Number < 0)
+        {
+            Debug.Log("Negative");
+        }
+        else
+        {
+            Debug.Log("Zero");   
+        }
+        Debug.Log("------------------------------");
+        as01Number = -987654321;
+        Debug.Log("AS01.01E: Input : " + as01Number );
+        if (as01Number > 0)
+        {
+            Debug.Log("Positive");
+        }
+        else if (as01Number < 0)
+        {
+            Debug.Log("Negative");
+        }
+        else
+        {
+            Debug.Log("Zero");   
+        }
+        Debug.Log("------------------------------");
     }
 
     public int as02Day;
@@ -31,7 +106,30 @@ public class Assignment : MonoBehaviour
     {
         // TODO: Implement logic to return day name
         // Example: Debug.Log("Monday");
-        throw new System.NotImplementedException();
+        as02Day = 1;
+        switch (as02Day)
+        {
+            case 1: Debug.Log("Monday"); break;
+            case 2: Debug.Log("Tuesday"); break;
+            case 3: Debug.Log("Wednesday"); break;
+            case 4: Debug.Log("Thursday"); break;
+            case 5: Debug.Log("Friday"); break;
+            case 6: Debug.Log("Saturday"); break;
+            case 7: Debug.Log("Sunday"); break;
+        }
+        Debug.Log("------------------------------");
+        as02Day = 2;
+        switch (as02Day)
+        {
+            case 1: Debug.Log("Monday"); break;
+            case 2: Debug.Log("Tuesday"); break;
+            case 3: Debug.Log("Wednesday"); break;
+            case 4: Debug.Log("Thursday"); break;
+            case 5: Debug.Log("Friday"); break;
+            case 6: Debug.Log("Saturday"); break;
+            case 7: Debug.Log("Sunday"); break;
+        }
+        Debug.Log("------------------------------");
     }
 
     public string as03InputPassword;
